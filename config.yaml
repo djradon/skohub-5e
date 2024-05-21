@@ -1,7 +1,7 @@
 ---
 # see https://github.com/nextapps-de/flexsearch#tokenizer-prefix-search for options
 tokenizer: "full" # strict, forward, reverse, full
-custom_domain: ""
+custom_domain: "https://djradon.github.io/skohub-5e/"
 fail_on_validation: true
 searchableAttributes:
   - "prefLabel" # you should not delete this one
@@ -11,7 +11,7 @@ searchableAttributes:
   - "example"
   - "definition"
 ui:
-  title: "SkoHub Vocabs" # Title is mandatory
+  title: "D&D5e SKOS Vocabulary" # Title is mandatory
   logo: "skohub-signet-color.svg" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"

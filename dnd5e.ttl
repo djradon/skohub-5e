@@ -1,0 +1,19 @@
+@prefix 5e: <https://djradon.github.io/skohub-5e/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dnd5e: a skos:ConceptScheme ;
+    dct:title "D&D 5th Edition Ontology"@en ;
+    dct:creator "Dave Richardson"@en ;
+    dct:created "2024-05-21"^^xsd:date ;
+    skos:hasTopConcept 5e:characterClass, 5e:classFeature .
+
+5e:characterClass a skos:Concept ;
+    skos:prefLabel "character class"@en;
+    skos:altLabel "class"@en ;
+    skos:topConceptOf 5e: .
+
+5e:classFeature a skos:Concept ;
+    skos:prefLabel "class feature"@en ;
+    skos:topConceptOf 5e: .
