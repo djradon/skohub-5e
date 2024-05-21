@@ -9,3 +9,11 @@ srd5e: a skos:ConceptScheme ;
     dct:created "2024-05-21"^^xsd:date ;
     skos:hasTopConcept srd5e:characterClass, srd5e:classFeature .
 
+srd5e:characterClass a skos:Concept ;
+    skos:prefLabel "character class"@en ;
+    skos:altLabel "class"@en ;
+    skos:topConceptOf srd5e: .
+
+srd5e:classFeature a skos:Concept ;
+    skos:prefLabel "class feature"@en ;
+    skos:topConceptOf srd5e: .
