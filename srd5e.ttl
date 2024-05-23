@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 srd5e: a skos:ConceptScheme ;
     dct:title "SRD 5th Edition Ontology"@en ;
@@ -9,11 +10,15 @@ srd5e: a skos:ConceptScheme ;
     dct:created "2024-05-21"^^xsd:date ;
     skos:hasTopConcept srd5e:characterClass, srd5e:classFeature .
 
-srd5e:characterClass a skos:Concept ;
+srd5e:characterClass a skos:Concept, owl:Class ;
     skos:prefLabel "character class"@en ;
     skos:altLabel "class"@en ;
     skos:topConceptOf srd5e: .
 
-srd5e:classFeature a skos:Concept ;
+srd5e:classFeature a skos:Concept, owl:Class ;
     skos:prefLabel "class feature"@en ;
     skos:topConceptOf srd5e: .
+
+srd5e:barbarianCharacterClass a skos:Concept, owl:Class ;
+    skos:prefLabel "Barbarian"@en ;
+    skos:broader srd5e:characterClass .
