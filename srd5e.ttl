@@ -15,7 +15,7 @@ srd5e:characterClass a skos:Concept, owl:Class ;
     skos:altLabel "class"@en ;
     skos:topConceptOf srd5e: .
 
-srd5e:classFeature a skos:Concept, owl:Class ;
+srd5e:clazzFeature a skos:Concept, owl:Class ;
     skos:prefLabel "class feature"@en ;
     skos:topConceptOf srd5e: .
 
