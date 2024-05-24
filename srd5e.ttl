@@ -19,6 +19,6 @@ srd5e:clazzFeature a skos:Concept, owl:Class ;
     skos:prefLabel "class feature"@en ;
     skos:topConceptOf srd5e: .
 
-srd5e:barbarianCharacterClass a skos:ConceptScheme;
+srd5e:barbarianCharacterClass a skos:Concept ;
     skos:prefLabel "Barbarian"@en ;
     skos:broader srd5e:characterClass .
