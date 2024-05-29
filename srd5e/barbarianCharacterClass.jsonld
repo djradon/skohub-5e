@@ -1,22 +1,15 @@
 {
-  "id": "https://djradon.github.io/skohub-5e/srd5e/characterClass",
+  "id": "https://djradon.github.io/skohub-5e/srd5e/barbarianCharacterClass",
   "type": "Concept",
   "prefLabel": {
-    "en": "character class"
+    "en": "Barbarian"
   },
-  "altLabel": {
-    "en": [
-      "class"
-    ]
-  },
-  "narrower": [
-    {
-      "id": "https://djradon.github.io/skohub-5e/srd5e/barbarianCharacterClass",
-      "prefLabel": {
-        "en": "Barbarian"
-      }
+  "broader": {
+    "id": "https://djradon.github.io/skohub-5e/srd5e/characterClass",
+    "prefLabel": {
+      "en": "character class"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://djradon.github.io/skohub-5e/srd5e/",
@@ -28,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://djradon.github.io/skohub-5e/srd5e/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://djradon.github.io/skohub-5e/srd5e/",
-      "title": {
-        "en": "SRD 5th Edition Ontology"
-      }
     }
   ],
   "@context": {
