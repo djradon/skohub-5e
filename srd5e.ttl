@@ -15,9 +15,10 @@ srd5e:characterClass a skos:Concept, owl:Class ;
     skos:altLabel "class"@en ;
     skos:topConceptOf srd5e: .
 
-srd5e:clazzFeature a skos:Concept, owl:Class ;
+srd5e:classFeature a skos:Concept, owl:Class ;
     skos:prefLabel "class feature"@en ;
     skos:topConceptOf srd5e: .
 
-srd5e:barbarianCharacterClass a skos:Concept ;
-    skos:prefLabel "Barbarian"@en .
+srd5e:barbarianCharacterClass a skos:Concept, srd5e:characterClass, owl:Class ;
+    skos:prefLabel "Barbarian"@en ;
+    skos:broader srd5e:characterClass .
