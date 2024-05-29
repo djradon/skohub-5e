@@ -17,14 +17,6 @@
       "id": "https://djradon.github.io/skohub-5e/srd5e/"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://djradon.github.io/skohub-5e/srd5e/",
-      "title": {
-        "en": "SRD 5th Edition Ontology"
-      }
-    }
-  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",
