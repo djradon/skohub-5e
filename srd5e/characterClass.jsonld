@@ -9,14 +9,6 @@
       "class"
     ]
   },
-  "narrower": [
-    {
-      "id": "https://djradon.github.io/skohub-5e/srd5e/barbarianCharacterClass",
-      "prefLabel": {
-        "en": "Barbarian"
-      }
-    }
-  ],
   "inScheme": [
     {
       "id": "https://djradon.github.io/skohub-5e/srd5e/",
