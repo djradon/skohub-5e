@@ -1,13 +1,8 @@
 {
-  "id": "https://djradon.github.io/skohub-5e/srd5e/characterClass",
+  "id": "https://djradon.github.io/skohub-5e/srd5e/barbarianCharacterClass",
   "type": "Concept",
   "prefLabel": {
-    "en": "character class"
-  },
-  "altLabel": {
-    "en": [
-      "class"
-    ]
+    "en": "Barbarian"
   },
   "inScheme": [
     {
